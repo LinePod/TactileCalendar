@@ -6,7 +6,6 @@ var dayScale = d3.scaleLinear()
   .domain([daysSinceEpoch(timeMin),daysSinceEpoch(timeMin)+numberOfDays])
   .range([100,1000]);
 
-
 var svg = d3.select("body")
   .append("svg")
   .attr("width", width)
@@ -28,6 +27,7 @@ svg.append("defs").append("pattern")
 
 
 function renderEvents(dataset) {
+  //gets called from googleCalendar.js when events are obtained from API
 
   var eventsOuterBoxes = svg.selectAll(".outerBox")
     .data(dataset)
@@ -37,13 +37,13 @@ function renderEvents(dataset) {
 
   eventsOuterBoxes
     .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + "px"
+      return dayScale(daysSinceEpoch(e.start.dateTime))
     })
     .attr("y", function(e) {
-      return timeScale(minutesSinceMidnight(e.start.dateTime)) + "px"
+      return timeScale(minutesSinceMidnight(e.start.dateTime))
     })
     .attr("height", function(e) {
-      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) + "px"
+      return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))
     });
 
   var eventsInnerBoxes = svg.selectAll(".innerBox")
@@ -54,13 +54,13 @@ function renderEvents(dataset) {
 
   eventsInnerBoxes
     .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + 10 + "px"
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 10
     })
     .attr("y", function(e) {
-      return timeScale(minutesSinceMidnight(e.start.dateTime)) + 10 + "px"
+      return timeScale(minutesSinceMidnight(e.start.dateTime)) + 10
     })
     .attr("height", function(e) {
-      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) - 20 + "px"
+      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) - 20
     });
 
   var summaries = svg.selectAll("text")
@@ -72,14 +72,13 @@ function renderEvents(dataset) {
     })
 
     .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + 15 + "px"
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 15
     })
     .attr("y", function(e) {
       var start = timeScale(minutesSinceMidnight(e.start.dateTime))
       var end = timeScale(minutesSinceMidnight(e.end.dateTime))
-      return (start + (end-start)/2 + 8) + "px"
+      return (start + (end-start)/2 + 8)
     });
-
 
   days = [] //Needed for placing of seperator lines
 
@@ -96,12 +95,12 @@ function renderEvents(dataset) {
     .attr("class", "seperator")
     .attr("x", function(e) {
       var xDiffPerDay = dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
-      return dayScale(daysSinceEpoch(e)) + (xDiffPerDay/2) + 25 + "px"
+      return dayScale(daysSinceEpoch(e)) + (xDiffPerDay/2) + 25
     })
     .attr("y", function(e) {
-      return 100 + "px"
+      return 100
     })
     .attr("height", function(e) {
-      return height-100 + "px" 
+      return height-100
     });
 }
