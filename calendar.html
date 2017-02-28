@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<script type="text/javascript" src="d3/d3.v4.js"></script>
+
+</head>
+<body>
+
+<button id="authorize-button" style="display: none;">Authorize</button>
+<button id="signout-button" style="display: none;">Sign Out</button>
+
+<script type="text/javascript" src="braille.js"></script>
+
+<script type="text/javascript">
+
+timeMin = new Date(1485558000000+8.64e7)
+maxEvents = 7
+
+</script>
+
+<script type="text/javascript" src="googleCalendar.js"></script>
+
+<script type="text/javascript">
+
+function daysSinceEpoch(timeString) {
+  var date = new Date(timeString)
+  return Math.floor(date/8.64e7)
+}
+
+function minutesSinceMidnight(timeString) {
+  date = new Date(timeString);
+  midnight = new Date(timeString);
+  midnight.setHours(0,0,0,0)
+
+  diff = date.getTime() - midnight.getTime();
+  return diff/60000
+}
+
+var w = 1200;
+var h = 600;
+
+var todaySinceEpoch = daysSinceEpoch(timeMin)
+var today = timeMin
+var daysNum = 5
+var days = []
+
+var timeScale = d3.scaleLinear()
+  .domain([540,1200])
+  .range([100,h]);
+
+var dayScale = d3.scaleLinear()
+  .domain([todaySinceEpoch,todaySinceEpoch+daysNum])
+  .range([100,1000]);
+
+for(i = 0; i <= daysNum; ++i) {
+  day = new Date(timeMin)
+  day.setDate(day.getDate() + i)   
+  days.push(new Date(day))
+}
+
+var xDiffPerDay = dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
+
+var svg = d3.select("body")
+  .append("svg")
+  .attr("width", w)
+  .attr("height", h);
+
+svg.append("defs").append("pattern")
+  .attr("id","dotFill")
+  .attr("x",0)
+  .attr("y",0)
+  .attr("width",1)
+  .attr("height",0.1)
+  .append("circle")
+    .attr("cx",25)
+    .attr("cy",25)
+    .attr("r",10)
+    .attr("stroke","black")
+    .attr("fill","white")
+    .attr("stroke-width","3");
+
+
+function renderEvents(dataset) {
+  for(i = 0; i < dataset.length; i++) {
+    var event = dataset[i];
+    console.log(daysSinceEpoch(event.start.dateTime))
+    console.log(minutesSinceMidnight(event.start.dateTime))
+  }
+
+
+
+  var eventsOuterBoxes = svg.selectAll(".outerBox")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .attr("class","outerBox")
+
+  var eventsInnerBoxes = svg.selectAll(".innerBox")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .attr("class","innerBox")
+
+  var summaries = svg.selectAll("text")
+    .data(dataset)
+    .enter()
+    .append("text")
+    .text(function(e) {
+      return convertToBraille(e.summary.substring(0,5))
+    })
+
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 15 + "px"
+    })
+    .attr("y", function(e) {
+      var start = timeScale(minutesSinceMidnight(e.start.dateTime))
+      var end = timeScale(minutesSinceMidnight(e.end.dateTime))
+      return (start + (end-start)/2 + 8) + "px"
+    });
+
+  eventsOuterBoxes
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + "px"
+    })
+    .attr("y", function(e) {
+      return timeScale(minutesSinceMidnight(e.start.dateTime)) + "px"
+    })
+    .attr("height", function(e) {
+      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) + "px"
+    });
+
+  eventsInnerBoxes
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 10 + "px"
+    })
+    .attr("y", function(e) {
+      return timeScale(minutesSinceMidnight(e.start.dateTime)) + 10 + "px"
+    })
+    .attr("height", function(e) {
+      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) - 20 + "px"
+    });
+
+  var seperators = svg.selectAll(".seperator")
+    .data(days)
+    .enter()
+    .append("rect")
+    .attr("class", "seperator")
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e)) + (xDiffPerDay/2) + 25 + "px"
+    })
+    .attr("y", function(e) {
+      return 100 + "px"
+    })
+    .attr("height", function(e) {
+      return h-100 + "px" 
+    });
+}
+
+</script>
+
+<script async defer src="https://apis.google.com/js/api.js"
+onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+</script>
+
+<style type="text/css">
+
+svg rect.seperator {
+  width:40px;
+  fill: url(#dotFill);
+}
+
+svg rect.outerBox {
+  width: 100px;
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+
+svg rect.innerBox {
+  width: 80px;
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+
+</style>
+
+</body>
+</html>
