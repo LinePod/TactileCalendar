@@ -73,10 +73,11 @@ function getCalendarEvents() {
   console.log("requesting events from google api");
   var request = gapi.client.calendar.events.list({
     'calendarId': 'primary',
-    'timeMin': (timeMin).toISOString(),
+    'timeMin': timeMin.toISOString(),
+    'timeMax': new Date(timeMax).toISOString(),
     'showDeleted': false,
     'singleEvents': true,
-    'maxResults': maxEvents,
+    'maxResults': 100,
     'orderBy': 'startTime'
   });
  

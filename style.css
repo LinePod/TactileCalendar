@@ -1,0 +1,19 @@
+svg rect.seperator {
+  width:40px;
+  fill: url(#dotFill);
+}
+
+svg rect.outerBox {
+  width: 100px;
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+
+svg rect.innerBox {
+  width: 80px;
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+}
+
