@@ -28,11 +28,6 @@ svg.append("defs").append("pattern")
 
 
 function renderEvents(dataset) {
-  for(i = 0; i < dataset.length; i++) {
-    var event = dataset[i];
-    console.log(daysSinceEpoch(event.start.dateTime))
-    console.log(minutesSinceMidnight(event.start.dateTime))
-  }
 
   var eventsOuterBoxes = svg.selectAll(".outerBox")
     .data(dataset)
@@ -40,11 +35,33 @@ function renderEvents(dataset) {
     .append("rect")
     .attr("class","outerBox")
 
+  eventsOuterBoxes
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + "px"
+    })
+    .attr("y", function(e) {
+      return timeScale(minutesSinceMidnight(e.start.dateTime)) + "px"
+    })
+    .attr("height", function(e) {
+      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) + "px"
+    });
+
   var eventsInnerBoxes = svg.selectAll(".innerBox")
     .data(dataset)
     .enter()
     .append("rect")
     .attr("class","innerBox")
+
+  eventsInnerBoxes
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 10 + "px"
+    })
+    .attr("y", function(e) {
+      return timeScale(minutesSinceMidnight(e.start.dateTime)) + 10 + "px"
+    })
+    .attr("height", function(e) {
+      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) - 20 + "px"
+    });
 
   var summaries = svg.selectAll("text")
     .data(dataset)
@@ -61,28 +78,6 @@ function renderEvents(dataset) {
       var start = timeScale(minutesSinceMidnight(e.start.dateTime))
       var end = timeScale(minutesSinceMidnight(e.end.dateTime))
       return (start + (end-start)/2 + 8) + "px"
-    });
-
-  eventsOuterBoxes
-    .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + "px"
-    })
-    .attr("y", function(e) {
-      return timeScale(minutesSinceMidnight(e.start.dateTime)) + "px"
-    })
-    .attr("height", function(e) {
-      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) + "px"
-    });
-
-  eventsInnerBoxes
-    .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + 10 + "px"
-    })
-    .attr("y", function(e) {
-      return timeScale(minutesSinceMidnight(e.start.dateTime)) + 10 + "px"
-    })
-    .attr("height", function(e) {
-      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) - 20 + "px"
     });
 
 
