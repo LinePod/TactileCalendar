@@ -25,7 +25,6 @@ svg.append("defs").append("pattern")
     .attr("fill","white")
     .attr("stroke-width","3");
 
-
 function renderEvents(dataset) {
   //gets called from googleCalendar.js when events are obtained from API
 
