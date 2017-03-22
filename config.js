@@ -1,4 +1,4 @@
-numberOfDays = 5
+numberOfDays = 2
 
 width = 1200;
 height = 600;

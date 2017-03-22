@@ -1,3 +1,12 @@
+//TODO deal with full day events
+//TODO make it possible to jump back a level
+//#
+//# #
+//  #
+//# # x
+//#   x
+//TODO remove XLevelRange
+
 var timeScale = d3.scaleLinear()
   .domain([540,1200])
   .range([100,height]);
@@ -25,58 +34,76 @@ svg.append("defs").append("pattern")
     .attr("fill","white")
     .attr("stroke-width","3");
 
+
+function lengthOfEvent(e) {
+  var start = new Date(e.start.dateTime)
+  var end = new Date(e.end.dateTime)
+  return end.getTime() - start.getTime()
+}
+
+function isOverlapping(a, b) {
+  return (a.start < b.start && b.start < a.end)||(b.start < a.start && a.start < b.end)
+}
+
+var XLevelRanges = []
+
+function getLevel(range) {
+    var overlapping = []
+    for(let i = 0; i < XLevelRanges.length; ++i) {
+      if(isOverlapping(range, XLevelRanges[i])) {
+        overlapping.push(XLevelRanges[i])
+      }
+    } 
+    console.log("overlapping:")
+    console.log((overlapping.length == 0) ? 0 : Math.max.apply(null, overlapping.map(o => o.level)) + 1)
+
+    return ((overlapping.length == 0) ? 0 : Math.max.apply(null, overlapping.map(o => o.level)) + 1)
+}
+
+function XLevelRange(event) {
+  this.start = (new Date(event.start.dateTime)).getTime()
+  console.log("Event starts: ")
+  console.log(this.start)
+  console.log((new Date(event.start.dateTime)).getTime())
+  this.end = (new Date(event.end.dateTime)).getTime()
+  this.level = 0
+  XLevelRanges.push(this)
+}
+
+function generateXLevelRanges(events) {
+
+  events.sort(function(a, b) {
+    return (lengthOfEvent(a) - lengthOfEvent(b))
+  })
+
+  for(let i = 0; i < events.length; i++) {
+    var a = new XLevelRange(events[i])
+    a.level = getLevel(a)
+  }
+  console.log(XLevelRanges)
+}
+
 function renderEvents(dataset) {
   //gets called from googleCalendar.js when events are obtained from API
-
-  var eventsOuterBoxes = svg.selectAll(".outerBox")
+  
+  generateXLevelRanges(dataset)
+  
+  var eventBoxes = svg.selectAll(".eventBox")
     .data(dataset)
     .enter()
     .append("rect")
-    .attr("class","outerBox")
+    .attr("class","eventBox")
 
-  eventsOuterBoxes
+  eventBoxes
     .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime))
+      var range = new XLevelRange(e)
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 20*getLevel(range)
     })
     .attr("y", function(e) {
       return timeScale(minutesSinceMidnight(e.start.dateTime))
     })
     .attr("height", function(e) {
       return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))
-    });
-
-  var eventsInnerBoxes = svg.selectAll(".innerBox")
-    .data(dataset)
-    .enter()
-    .append("rect")
-    .attr("class","innerBox")
-
-  eventsInnerBoxes
-    .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + 10
-    })
-    .attr("y", function(e) {
-      return timeScale(minutesSinceMidnight(e.start.dateTime)) + 10
-    })
-    .attr("height", function(e) {
-      return (timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))) - 20
-    });
-
-  var summaries = svg.selectAll("text")
-    .data(dataset)
-    .enter()
-    .append("text")
-    .text(function(e) {
-      return convertToBraille(e.summary.substring(0,5))
-    })
-
-    .attr("x", function(e) {
-      return dayScale(daysSinceEpoch(e.start.dateTime)) + 15
-    })
-    .attr("y", function(e) {
-      var start = timeScale(minutesSinceMidnight(e.start.dateTime))
-      var end = timeScale(minutesSinceMidnight(e.end.dateTime))
-      return (start + (end-start)/2 + 8)
     });
 
   days = [] //Needed for placing of seperator lines

@@ -3,17 +3,9 @@ svg rect.seperator {
   fill: url(#dotFill);
 }
 
-svg rect.outerBox {
-  width: 100px;
+svg rect.eventBox {
+  width: 20px;
   fill: white;
   stroke: black;
   stroke-width: 3;
 }
-
-svg rect.innerBox {
-  width: 80px;
-  fill: white;
-  stroke: black;
-  stroke-width: 3;
-}
-
