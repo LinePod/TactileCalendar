@@ -9,3 +9,10 @@ svg rect.eventBox {
   stroke: black;
   stroke-width: 3;
 }
+
+svg rect.dayBox {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+  opacity: 0.2;
+}
