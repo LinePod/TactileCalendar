@@ -76,26 +76,11 @@ function renderEvents(dataset) {
   //gets called from googleCalendar.js when events are obtained from API
   generateXLevels(dataset)
 
-  var eventBoxes = svg.selectAll(".eventBox")
-  .data(dataset)
-  .enter()
-  .append("rect")
-  .attr("class","eventBox")
-
-  eventBoxes
-  .attr("x", function(e) {
-    return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level
-  })
-  .attr("y", function(e) {
-    return timeScale(minutesSinceMidnight(e.start.dateTime))
-  })
-  .attr("height", function(e) {
-    return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))
-  });
 
   days = [] //Needed for placing of seperator lines
 
-  for(i = 0; i <= numberOfDays; ++i) {
+  //-1 so that seperator line is on left side of day
+  for(i = -1; i <= numberOfDays - 1; ++i) {
     day = new Date(timeMin)
     day.setDate(day.getDate() + i)   
     days.push(new Date(day))
@@ -116,4 +101,40 @@ function renderEvents(dataset) {
   .attr("height", function(e) {
     return height-100
   });
+
+  var dayBoxes = svg.selectAll(".dayBox")
+		.data(days)
+		.enter()
+		.append("rect")
+		.attr("class", "dayBox")
+  	.attr("x", function(e) {
+    	var xDiffPerDay = dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
+    	return dayScale(daysSinceEpoch(e)) + (xDiffPerDay/2) + 10 
+  	})
+		.attr("width", function(e) {
+    	return dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
+		})
+		.attr("y", 0)
+		.attr("height", height)
+		.on("mouseover", handleMouseOverDay)
+		.on("mouseout", handleMouseOutDay);
+
+  var eventBoxes = svg.selectAll(".eventBox")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .attr("class","eventBox")
+
+  eventBoxes
+    .attr("x", function(e) {
+      return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level
+    })
+    .attr("y", function(e) {
+      return timeScale(minutesSinceMidnight(e.start.dateTime))
+    })
+    .attr("height", function(e) {
+      return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))
+    })
+    .on("mouseover", handleMouseOverEvent)
+    .on("mouseout", handleMouseOutEvent);
 }
