@@ -12,3 +12,10 @@ function minutesSinceMidnight(timeString) {
   return diff/60000
 }
 
+var cursorX;
+var cursorY;
+
+document.onmousemove = function(e) {
+  cursorX = e.pageX;
+  cursorY = e.pageY;
+}

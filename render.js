@@ -1,5 +1,7 @@
 //TODO deal with full day events
 //TODO watch out for events starting/ending at same time
+//TODO speech is canceld when new day over circles
+//TODO zeitumstellung
 
 var timeScale = d3.scaleLinear()
 
@@ -111,7 +113,7 @@ function renderEvents(events) {
 			return timeScale(h*60)		
 		})
 		.on("mouseover", handleMouseOverHourMark)
-		.on("mouseout", cancelSpeech)
+		//.on("mouseout", cancelSpeech)
 	});
 
 }
