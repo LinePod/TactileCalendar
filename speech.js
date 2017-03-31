@@ -123,6 +123,11 @@ function endEventCreation() {
 	curEvent['end']['dateTime'] = roundMinutes(endTime).toISOString()
 	curEvent['end']['timeZone'] = 'Europe/Berlin'
 	console.log(curEvent)
-	createEvent(curEvent)
+	if(curEvent.hasOwnProperty("start")) {
+	  	createEvent(curEvent)
+	}
+	else {
+		console.log("No starttime specified")	
+	}
 	curEvent = {}
 }
