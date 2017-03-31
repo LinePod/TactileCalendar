@@ -1,27 +1,16 @@
-svg rect.seperator {
-  width:40px;
-  fill: url(#dotFill);
-  stroke: black;
-  stroke-width: 4;
-}
-
 svg rect.eventBox {
   width: 20px;
-  fill: white;
-  stroke: black;
-  stroke-width: 3;
+  stroke: none;
+  fill: url(#eventFill);
 }
 
 svg rect.dayBox {
   fill: white;
-  stroke: black;
-  stroke-width: 3;
   opacity: 0.0;
 }
 
-svg circle.hourMarker {
-  fill: white;
-  stroke: black;
-  stroke-width: 3;
-  r: 10;
-}
+svg rect.hourMarker {
+  fill: url(#hourMarkFill);
+  stroke: none;
+  width: 15px;
+  height: 15px;

@@ -2,6 +2,7 @@
 //TODO watch out for events starting/ending at same time
 //TODO speech is canceld when new day over circles
 //TODO zeitumstellung
+//TODO no am/pm unless first enter
 
 var timeScale = d3.scaleLinear()
 
@@ -12,19 +13,37 @@ var svg = d3.select("body")
 .attr("width", width)
 .attr("height", height);
 
-svg.append("defs").append("pattern")
-.attr("id","dotFill")
-.attr("x",0)
-.attr("y",0)
-.attr("width",1)
-.attr("height",0.1)
-.append("circle")
-.attr("cx",25)
-.attr("cy",25)
-.attr("r",10)
-.attr("stroke","black")
-.attr("fill","white")
-.attr("stroke-width","3");
+var defs = svg.append("defs")
+
+defs.append("pattern")
+	.attr("id", "eventFill")
+	.attr("x", 10)
+	.attr("y", 10)
+	.attr("width", 20)
+	.attr("height", 15)
+	.attr("patternUnits", "userSpaceOnUse")
+	.append("line")
+		.attr("x1", 0)
+		.attr("y1", 0)
+		.attr("x2", 20)
+		.attr("y2", 0)
+		.attr("stroke", "black")
+		.attr("stroke-width", 3)
+
+defs.append("pattern")
+	.attr("id", "hourMarkFill")
+	.attr("x", 10)
+	.attr("y", 10)
+	.attr("width", 5)
+	.attr("height", 20)
+	.attr("patternUnits", "userSpaceOnUse")
+	.append("line")
+		.attr("x1", 0)
+		.attr("y1", 0)
+		.attr("x2", 0)
+		.attr("y2", 20)
+		.attr("stroke", "black")
+		.attr("stroke-width", 2)
 
 function renderEvents(events) {
   //gets called from googleCalendar.js when events are obtained from API
@@ -58,6 +77,7 @@ function renderEvents(events) {
 		days.push(new Date(day))
 	}
 
+
 	var dayBoxes = svg.selectAll(".dayBox")
 	.data(days)
 	.enter()
@@ -74,7 +94,6 @@ function renderEvents(events) {
 	.attr("height", height)
 	.on("mouseover", handleMouseOverDay)
 
-
 	var eventBoxes = svg.selectAll(".eventBox")
 	.data(events)
 	.enter()
@@ -83,7 +102,7 @@ function renderEvents(events) {
 
 	eventBoxes
 	.attr("x", function(e) {
-		return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level
+		return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 28
 	})
 	.attr("y", function(e) {
 		return timeScale(minutesSinceMidnight(e.start.dateTime))
@@ -103,13 +122,13 @@ function renderEvents(events) {
 		d3.select(this).selectAll(".hourMarker")
 		.data(hours.slice(0,-1)) //all but last hour
 		.enter()
-		.append("circle")
+		.append("rect")
 		.attr("class", "hourMarker")
-		.attr("cx", function() {
+		.attr("x", function() {
 			var xDiffPerDay = dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
 			return dayScale(daysSinceEpoch(d)) + (xDiffPerDay/2) + 40
 		})
-		.attr("cy", function(h) {
+		.attr("y", function(h) {
 			return timeScale(h*60)		
 		})
 		.on("mouseover", handleMouseOverHourMark)
