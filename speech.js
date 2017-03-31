@@ -74,6 +74,7 @@ function handleMouseOverHourMark(e, i) {
   	speak(hourMarks[e])
 }
 
+
 function handleSpeechInput(summary, startTime, endTime) {
 	console.log("summary")
 	console.log(summary)
@@ -99,13 +100,19 @@ function getCursorTime() {
 	return cursorDate
 }
 
+function roundMinutes(date) {
+	date.setHours(date.getHours() + Math.round(date.getMinutes()/60));
+	date.setMinutes(0);
+	return date;
+}
+
 function startEventCreation(summary) {
 	console.log("Create event: ")
 	console.log(summary)
 	var startTime = getCursorTime()
 	curEvent['summary'] = summary
 	curEvent['start'] = {}
-	curEvent['start']['dateTime'] = startTime.toISOString()
+	curEvent['start']['dateTime'] = roundMinutes(startTime).toISOString()
 	curEvent['start']['timeZone'] = 'Europe/Berlin'
 }
 
@@ -113,7 +120,7 @@ function endEventCreation() {
 	console.log("end event: ")
 	var endTime = getCursorTime()
 	curEvent['end'] = {}
-	curEvent['end']['dateTime'] = endTime.toISOString()
+	curEvent['end']['dateTime'] = roundMinutes(endTime).toISOString()
 	curEvent['end']['timeZone'] = 'Europe/Berlin'
 	console.log(curEvent)
 	createEvent(curEvent)

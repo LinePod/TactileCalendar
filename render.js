@@ -17,10 +17,10 @@ var defs = svg.append("defs")
 
 defs.append("pattern")
 	.attr("id", "eventFill")
-	.attr("x", 10)
-	.attr("y", 10)
+	.attr("x", 0)
+	.attr("y", 0)
 	.attr("width", 20)
-	.attr("height", 15)
+	.attr("height", 10)
 	.attr("patternUnits", "userSpaceOnUse")
 	.append("line")
 		.attr("x1", 0)
@@ -32,9 +32,9 @@ defs.append("pattern")
 
 defs.append("pattern")
 	.attr("id", "hourMarkFill")
-	.attr("x", 10)
-	.attr("y", 10)
-	.attr("width", 5)
+	.attr("x", 0)
+	.attr("y", 0)
+	.attr("width", 3)
 	.attr("height", 20)
 	.attr("patternUnits", "userSpaceOnUse")
 	.append("line")
@@ -93,6 +93,7 @@ function renderEvents(events) {
 	.attr("y", 0)
 	.attr("height", height)
 	.on("mouseover", handleMouseOverDay)
+	.on("mouseout", cancelSpeech)
 
 	var eventBoxes = svg.selectAll(".eventBox")
 	.data(events)
@@ -108,7 +109,7 @@ function renderEvents(events) {
 		return timeScale(minutesSinceMidnight(e.start.dateTime))
 	})
 	.attr("height", function(e) {
-		return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime))
+		return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime)) + 5
 	})
 	.on("mouseover", handleMouseOverEvent)
 	.on("mouseout", cancelSpeech);
@@ -129,10 +130,10 @@ function renderEvents(events) {
 			return dayScale(daysSinceEpoch(d)) + (xDiffPerDay/2) + 40
 		})
 		.attr("y", function(h) {
-			return timeScale(h*60)		
+			return timeScale(h*60)-7		
 		})
 		.on("mouseover", handleMouseOverHourMark)
-		//.on("mouseout", cancelSpeech)
+		.on("mouseout", cancelSpeech)
 	});
 
 }

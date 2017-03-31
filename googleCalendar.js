@@ -77,6 +77,7 @@ function createEvent(event) {
 
   request.execute(function(event) {
     console.log('Event created: ' + event.htmlLink);
+    window.location.reload(true)
   });
 }
 
