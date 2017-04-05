@@ -77,12 +77,12 @@ function renderEvents(events) {
 		days.push(new Date(day))
 	}
 
-
 	var dayBoxes = svg.selectAll(".dayBox")
 	.data(days)
 	.enter()
 	.append("rect")
 	.attr("class", "dayBox")
+	.attrs(dayBoxAttrs)
 	.attr("x", function(e) {
 		var xDiffPerDay = dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
 		return dayScale(daysSinceEpoch(e)) + (xDiffPerDay/2) + 10 
@@ -96,13 +96,19 @@ function renderEvents(events) {
 	.on("mouseout", cancelSpeech)
 
 	var eventBoxes = svg.selectAll(".eventBox")
-	.data(events)
+	//filter out allday events
+	.data(events.filter(function(e){return typeof e.start.dateTime !== "undefined"}))
 	.enter()
 	.append("rect")
-	.attr("class","eventBox")
+	.attr("class","eventBox");
 
 	eventBoxes
+	.attrs(eventBoxAttrs)
 	.attr("x", function(e) {
+		console.log("dayScale")
+		console.log(dayScale(daysSinceEpoch(e.start.dateTime)))
+		console.log("level")
+		console.log(e.level)
 		return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 28
 	})
 	.attr("y", function(e) {
@@ -125,6 +131,7 @@ function renderEvents(events) {
 		.enter()
 		.append("rect")
 		.attr("class", "hourMarker")
+		.attrs(hourMarkAttrs)
 		.attr("x", function() {
 			var xDiffPerDay = dayScale(daysSinceEpoch(days[1]))-dayScale(daysSinceEpoch(days[0]))
 			return dayScale(daysSinceEpoch(d)) + (xDiffPerDay/2) + 40
