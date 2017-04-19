@@ -1,8 +1,8 @@
-numberOfDays = 5
+numberOfDays = 6
 
 width = 1200;
 height = 600;
 
-timeMin = new Date() //use Date() for today
+timeMin = startOfCurrentWeek()
 timeMax = new Date(timeMin)
 timeMax.setDate(timeMax.getDate() + numberOfDays)

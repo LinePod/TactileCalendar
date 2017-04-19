@@ -142,5 +142,4 @@ function renderEvents(events) {
 		.on("mouseover", handleMouseOverHourMark)
 		.on("mouseout", cancelSpeech)
 	});
-
 }
