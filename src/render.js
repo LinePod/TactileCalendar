@@ -109,7 +109,7 @@ function renderEvents(events) {
 		console.log(dayScale(daysSinceEpoch(e.start.dateTime)))
 		console.log("level")
 		console.log(e.level)
-		return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 28
+		return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 13
 	})
 	.attr("y", function(e) {
 		return timeScale(minutesSinceMidnight(e.start.dateTime))
