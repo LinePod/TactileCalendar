@@ -1,11 +1,11 @@
-// Symbols to be used as tile representations
-// Set symbols to be used in options.js
-
 var bump = {
   draw: function(context, size) {
-    context.moveTo(0,-6);
+	var l = size/2;
+	context.moveTo(0,-l);
+	context.lineTo(0,-6);
     context.lineTo(6,0);
     context.lineTo(0,6);
+	context.lineTo(0,l);
   }
 }
 
