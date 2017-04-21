@@ -1,9 +1,3 @@
-//TODO deal with full day events
-//TODO watch out for events starting/ending at same time
-//TODO speech is canceld when new day over circles
-//TODO zeitumstellung
-//TODO no am/pm unless first enter
-
 var timeScale = d3.scaleLinear()
 
 var dayScale = d3.scaleLinear()
