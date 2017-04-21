@@ -1,4 +1,4 @@
-eventBoxAttrs = {"width":function(){return 20},
+eventBoxAttrs = {"width":function(){return 15},
                  "stroke":function(){return "none"},
                  "fill":function(){return "url(#eventFill)"}}
 
