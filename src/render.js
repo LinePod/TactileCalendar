@@ -32,7 +32,6 @@ function renderEvents(events) {
 
   var minHour = getMinHour(events)
   var maxHour = getMaxHour(events)
-	var hourLength = timeScale(minHour*60+60) - timeScale(minHour*60)
 
 	//hours needed for hourmarks
   var hours = []
@@ -49,6 +48,13 @@ function renderEvents(events) {
 	dayScale
 	.domain([daysSinceEpoch(timeMin),daysSinceEpoch(timeMin)+numberOfDays])
 	.range([100,1000]);
+
+	console.log("minhour")
+	console.log(timeScale(minHour*60))
+	console.log("minhour+1")
+	console.log(timeScale((minHour+1)*60))
+	var hourLength = timeScale((minHour+1)*60) - timeScale(minHour*60)
+	console.log(hourLength)
 
 	days = [] //Needed for placing of seperator lines
 
@@ -112,7 +118,7 @@ function renderEvents(events) {
 	eventBoxes
 	.attrs(eventBoxAttrs)
 	.attr("x", function(e) {
-	return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 55
+	return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 25
 
 	})
 	.attr("y", function(e) {
