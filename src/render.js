@@ -1,10 +1,3 @@
-//TODO deal with full day events
-//TODO watch out for events starting/ending at same time
-//TODO speech is canceld when new day over circles
-//TODO zeitumstellung
-//TODO no am/pm unless first enter
-//TODO Define fillpattern outside render.js
-
 var timeScale = d3.scaleLinear()
 
 var dayScale = d3.scaleLinear()
@@ -119,7 +112,8 @@ function renderEvents(events) {
 	eventBoxes
 	.attrs(eventBoxAttrs)
 	.attr("x", function(e) {
-		return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 55
+	return dayScale(daysSinceEpoch(e.start.dateTime)) + 30*e.level - 55
+
 	})
 	.attr("y", function(e) {
 		return timeScale(minutesSinceMidnight(e.start.dateTime)-12)
