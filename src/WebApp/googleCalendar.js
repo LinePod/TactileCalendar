@@ -1,6 +1,6 @@
 // Client ID and API key from the Developer Console
 var CLIENT_ID = '22894633103-anc2ise30af70ql8m19ptgf4ttsidsil.apps.googleusercontent.com';
-
+var inited = false;
 // Array of API discovery doc URLs for APIs used by the quickstart
 var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
 
@@ -47,6 +47,11 @@ function updateSigninStatus(isSignedIn) {
     authorizeButton.style.display = 'none';
     signoutButton.style.display = 'block';
     getCalendarEvents().then(function(results) {
+      if (inited == false){
+
+        initCalendar(results);
+        inited = true;
+      }
       renderEvents(results);
     });
   } else {
