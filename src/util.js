@@ -1,5 +1,6 @@
 function daysSinceEpoch(timeString) {
   var date = new Date(timeString)
+  date.setHours(0,0,0,0)
   return Math.floor(date/8.64e7)
 }
 

@@ -1,4 +1,4 @@
-numberOfDays = 6
+numberOfDays = 7
 
 width = 1200;
 height = 600;
@@ -9,8 +9,6 @@ paperA4Yoffset = 125;
 
 svgVersionNr = 0
 
-
-
 function startOfCurrentWeek() {
   var d = new Date();
   var day = d.getDay(),
@@ -19,7 +17,6 @@ function startOfCurrentWeek() {
   //return midnight of day
   var monday = new Date(d.setDate(diff));
   return new Date(monday.setHours(0,0,0,0))
-
 }
 
 timeMin = startOfCurrentWeek()
