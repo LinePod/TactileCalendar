@@ -2,7 +2,7 @@ eventBoxAttrs = {"width":function(){return 20},
                  "stroke":function(){return "none"},
                  "fill":function(){return "url(#eventFill)"}}
 
-dayBoxAttrs = {"fill":function(){return "none"},
+dayBoxAttrs = {"fill":function(){return "white"},
                "stroke":function(){return  "none"}}
 
 hourMarkAttrs = {"fill":function(){return "url(#hourMarkFill)"},
