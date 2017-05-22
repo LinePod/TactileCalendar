@@ -99,28 +99,39 @@ function initCalendar(events){
     dayBoxes.attrs(dayBoxAttrs)
 
     //Add hour marks
-    	var dayGroups = svg.selectAll("g")
-    	.data(days)
-    	.enter()
-    	.append("g")
-    	.each(function(d, i) {
-    		d3.select(this).selectAll(".hourMarker")
-    		.data(hours.slice(0,-1)) //all but last hour
-    		.enter()
-    		.append("rect")
-    		.attr("class", "hourMarker")
-    		.attrs(hourMarkAttrs)
-    		.attr("x", function() {
-    			return dayScale(daysSinceEpoch(d)) + 25
-    		})
-    		.attr("y", function(h) {
-    			return timeScale(h*60)-7
-    		})
-    		.on("mouseover", handleMouseOverHourMark)
-    		.on("mouseout", cancelSpeech)
-    	});
+    var dayGroups = svg.selectAll("g")
+    .data(days)
+    .enter()
+    .append("g")
+    .each(function(d, i) {
+	    d3.select(this).selectAll(".hourMarker")
+	    .data(hours.slice(0,-1)) //all but last hour
+	    .enter()
+	    .append("rect")
+	    .attr("class", "hourMarker")
+	    .attrs(hourMarkAttrs)
+	    .attr("x", function() {
+		    return dayScale(daysSinceEpoch(d)) + 25
+	    })
+	    .attr("y", function(h) {
+		    return timeScale(h*60)-7
+	    });
 
-
+	    d3.select(this).selectAll(".hourMarkerHoverBox")
+	    .data(hours.slice(0,-1)) //all but last hour
+	    .enter()
+	    .append("rect")
+	    .attr("class", "hourMarkerHoverBox")
+	    .attrs(hourMarkHoverBoxAttrs)
+	    .attr("x", function() {
+		    return dayScale(daysSinceEpoch(d)) + 25 - 7
+	    })
+	    .attr("y", function(h) {
+		    return timeScale(h*60)- 7 - 7
+	    })
+	    .on("mouseover", handleMouseOverHourMark)
+	    .on("mouseout", cancelSpeech);
+    });
 }
 
 

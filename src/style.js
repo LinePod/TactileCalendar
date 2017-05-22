@@ -9,3 +9,8 @@ hourMarkAttrs = {"fill":function(){return "url(#hourMarkFill)"},
                  "stroke":function(){return "none"},
                  "width":function(){return 15},
                  "height":function(){return 15}}
+
+hourMarkHoverBoxAttrs = {"fill":function(){return "white"},
+                         "stroke":function(){return "none"},
+                         "width":function(){return 30},
+                         "height":function(){return 30}}
