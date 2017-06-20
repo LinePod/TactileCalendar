@@ -14,6 +14,9 @@ var svgTop = d3.select("body")
 
 var svg = svgTop
 .append("svg")
+.attr("version", 1.1)
+.attr("xmlns","http://www.w3.org/2000/svg")
+.attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
 .attr("width", paperWidth)
 .attr("height", paperHeight-paperA4Yoffset)
 .attr("id","svg")
