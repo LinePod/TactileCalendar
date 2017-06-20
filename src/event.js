@@ -13,7 +13,7 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
-weekDays = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+weekDays = ["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
 
 function formatAMPM(date) {

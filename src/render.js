@@ -129,7 +129,7 @@ function initCalendar(events){
 	    .attr("y", function(h) {
 		    return timeScale(h*60)- 7 - 7
 	    })
-	    .on("mouseover", handleMouseOverHourMark)
+        .on("mouseover", handleMouseOverHourMark)
 	    .on("mouseout", cancelSpeech);
     });
 }
@@ -160,7 +160,7 @@ function renderEvents(events){
 	.attr("height", function(e) {
 		return timeScale(minutesSinceMidnight(e.end.dateTime)) - timeScale(minutesSinceMidnight(e.start.dateTime)) + 5
 	})
-	.on("mouseover", handleMouseOverEvent)
+    .on("mouseover", handleMouseOverEvent)
 	.on("mouseout", cancelSpeech);
 
 

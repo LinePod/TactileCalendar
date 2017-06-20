@@ -1,4 +1,5 @@
 var lastEvent;
+var lastHourMark;
 
 
 hourMarks = ["12AM", "1AM", "2AM", "3AM", "4AM", "5AM", "6AM", "7AM", "8AM", "9AM", "10AM", "11AM",
@@ -54,16 +55,20 @@ function cancelSpeech() {
 }
 
 function handleMouseOverEvent(e, i) {
-  	if (e!= lastEvent){
+
+    if (e!= lastEvent ){
         speak(textFor(e));
-        console.log("mouse over event " + e);
         lastEvent = e;
-  	}
+
+
+    }
+
 }
 
 function handleMouseOverDay(e, i) {
 	var day = weekDays[e.getDay()]
 	if(day != lastDay) {
+
 		lastDay = day
 		speak(weekDays[e.getDay()])
 		console.log("mouse over day " + e);
@@ -71,8 +76,12 @@ function handleMouseOverDay(e, i) {
 }
 
 function handleMouseOverHourMark(e, i) {
-  	speak(hourMarks[e])
+  	if (e != lastHourMark){
+
+  	    speak(hourMarks[e]);
 		console.log("mouse over mark " + e);
+  	    lastHourMark = e;
+  	}
 }
 
 

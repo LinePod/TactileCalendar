@@ -18,7 +18,7 @@ var fsm = new machina.Fsm({
      },
      simulatePrint: function(){
        Android.startSVGTransmitter(false);
-       this.handle("printing");
+       this.transition("printing");
      },
      options: function(){
        //this.emit('speech', "Do you want to print your calendar now then say 'print'. Just don't forget to check that your Linepod is turned on, has paper inserted and that it's lid is closed.");

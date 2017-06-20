@@ -59,7 +59,16 @@ function cancelSpeech() {
 }
 
 function handleMouseOverEvent(e, i) {
-  	speak(textFor(e))
+  	
+    if (e!= lastEvent ){
+        speak(textFor(e));
+        console.log("mouse over event " + e);
+        lastEvent = e;
+        
+
+    }
+    
+
 }
 
 function handleMouseOverDay(e, i) {
