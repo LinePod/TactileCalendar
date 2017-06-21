@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TactileCalendar</string>
+    <string name="connection_established">Connection established</string>
+    <string name="lost_connection">Lost connection</string>
+    <string name="could_not_connect">Could not connect to laser plotter.</string>
+    <string name="connecting_laser_plotter">Connecting to laser plotter.</string>
+    <string name="sending_img_laser_plotter">Sending image to laser plotter</string>
+    <string name="bluetooth_device_name">raspberrypi</string>
+</resources>

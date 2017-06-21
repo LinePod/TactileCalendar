@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.hci.bachelorproject.tactileCalendar.GoogleCalendarActivity">
+
+
+    <WebView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        />
+    <Button android:id="@+id/printTrigger"
+        android:layout_width="100dp"
+        android:layout_height="50dp"></Button>
+
+    <Button android:id="@+id/simulateTrigger"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/printTrigger"></Button>
+
+</RelativeLayout>
