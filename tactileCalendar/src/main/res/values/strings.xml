@@ -5,5 +5,4 @@
     <string name="could_not_connect">Could not connect to laser plotter.</string>
     <string name="connecting_laser_plotter">Connecting to laser plotter.</string>
     <string name="sending_img_laser_plotter">Sending image to laser plotter</string>
-    <string name="bluetooth_device_name">raspberrypi</string>
 </resources>

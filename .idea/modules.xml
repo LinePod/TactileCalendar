@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TactileCalendar.iml" filepath="$PROJECT_DIR$/TactileCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-framework/bluetoothlib/bluetoothlib.iml" filepath="$PROJECT_DIR$/android-framework/bluetoothlib/bluetoothlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-framework/svgparser/svgparser.iml" filepath="$PROJECT_DIR$/android-framework/svgparser/svgparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/tactile-calendar.iml" filepath="$PROJECT_DIR$/tactile-calendar.iml" />
