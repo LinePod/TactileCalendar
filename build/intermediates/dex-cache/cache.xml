@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.22.0\6d1e1a76a16a244ab2f41775791be1dd0ec2878a\google-http-client-android-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d1e1a76a16a244ab2f41775791be1dd0ec2878a">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-http-client-android-1.22.0_dd24253efec598a71a5804c476a8c0619365b544.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.android\build-cache\5d0e107388db0e56dcd906d3a015a2c1ba96572f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_51c8ff9fce79171d86d8695b63294e7fb75d9194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_e0ede64bbcdd4855dcd768adbe0d25cab7bc5789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.android\build-cache\e3ce72fbc2bb1da2fde400794e0e7500e0a3783a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c62423966e97071131e9c16d89ffaa003fe6a5d1">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_7c9b30c1009a1171aa1de4b54379e767af4f5425.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\guava-jdk5-17.0_c05c7e71bb5d3f31a4fd6b696a05822319f9110d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-calendar\v3-rev241-1.22.0\94501f6c4699d6c3f07c2c70215ba3dff31b60\google-api-services-calendar-v3-rev241-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0094501f6c4699d6c3f07c2c70215ba3dff31b60">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-api-services-calendar-v3-rev241-1.22.0_62cfe2bb732140835b2b82e8b6ad482251fa43d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.22.0\7a0fe12b7d8189a821934d6f9d6586d00180e461\google-api-client-android-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a0fe12b7d8189a821934d6f9d6586d00180e461">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-api-client-android-1.22.0_39ae6785d8886e5259db5a4107b6b7edea9b99bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.22.0\1d63f369ac78e4838a3197147012026e791008cb\google-oauth-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-oauth-client-1.22.0_3aa55018b12951c5ba6a2ec99e5bee90c4b8827a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.22.0\d441fc58329c4a4c067acec04ac361627f66ecc8\google-http-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-http-client-1.22.0_b658e71e73e04f76c29b50b55db7f77ea74c17c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_0963902495d2ac0435e739ec9eab2069a22e88e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\jsr305-1.3.9_88b1463cffa174d5042680447c4c66302ae0e7b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_6fab22593fafaaa74711f27d294bb5977bd25961.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\webapplib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee09141bfe852a8194b44bc9237479acd49e3359">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_3892ce5833c8d4b7509b44af72cc7ad938c0f5eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.android\build-cache\24e0e2fd8345ba9735f4ecf484ce328e52c40bdb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_7a32a0aa4d029b28e08580a85ffe9ea33397b533.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\svgparser\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc46da197f9c92970c177989f08e78f6dfa98cba">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_0aafa2e5675a018afbb5eaa2b9a181d4bd33baa1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="770c01d28a9fe5e79db441b4e07869fde67fd2c9">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d66e5906ed4316a3f3e167177b02b83453aaa4db\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\bluetoothlib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5257cf18aa0abccf0ed13d19b69ff285d0dbeadf">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_3174eeba0f163b1305e17fe6e4678d3ad883d886.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.android\build-cache\693fff58ea7bf5a1166e99ca40330bba9953f458\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\classes_24086075342f423a5cf6cceab3a9f4a6caba7230.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8edc9735ac7d8db9fe14435fc84ced4ec6acd6e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.22.0\cc014d64ae11117e159d334c99d9c246d9b36f44\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.22.0_51d3b6e544e219aba7e67e95c00e74445d397f21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Julius\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.22.0\244350c0c845c583717ade13f5666a452fd0cfa\google-api-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\intermediates\pre-dexed\debug\google-api-client-1.22.0_080192309a079a01ed04402ab00c6d4f534a0ec8.jar" />
+    </item>
+
+</items>

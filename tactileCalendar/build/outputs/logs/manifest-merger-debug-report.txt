@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+meta-data#com.google.android.gms.version
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:4:5-118
+	android:value
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:4:62-115
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:4:16-61
+uses-permission#android.permission.INTERNET
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:9:5-68
+MERGED from [TactileCalendar:bluetoothlib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\bluetoothlib\build\intermediates\bundles\default\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:10:5-74
+MERGED from [TactileCalendar:bluetoothlib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\bluetoothlib\build\intermediates\bundles\default\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:10:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:11:5-80
+MERGED from [TactileCalendar:bluetoothlib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\bluetoothlib\build\intermediates\bundles\default\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:11:22-78
+application
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:13:5-22:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Julius\.android\build-cache\5d0e107388db0e56dcd906d3a015a2c1ba96572f\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Julius\.android\build-cache\24e0e2fd8345ba9735f4ecf484ce328e52c40bdb\output\AndroidManifest.xml:19:5-21:19
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Julius\.android\build-cache\e3ce72fbc2bb1da2fde400794e0e7500e0a3783a\output\AndroidManifest.xml:12:5-20
+MERGED from [TactileCalendar:webapplib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\webapplib\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [TactileCalendar:bluetoothlib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\bluetoothlib\build\intermediates\bundles\default\AndroidManifest.xml:15:5-19:19
+MERGED from [TactileCalendar:svgparser:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\svgparser\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Julius\.android\build-cache\036fc017015a71a9b3d7a9b836fdc8b5c976303c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Julius\.android\build-cache\90f1862068d93f344c1bd2df6bf2908dd054b21f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Julius\.android\build-cache\b0221244a42c6e11e6187cb8c43305144f571ad2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Julius\.android\build-cache\b291443db106afe0fd0960b03fde53f003d783c6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Julius\.android\build-cache\01c1f2d4ef975f9cfb7668f291f51a0850ac55ea\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Julius\.android\build-cache\166dd5950d5d4c82d2c567618f14ca9a25068b80\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Julius\.android\build-cache\ab7974efcce14faf7acd2186e85211c119b5c1dc\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Julius\.android\build-cache\82b345279275cb9b636270f9e82170fe1ca9b27d\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Julius\.android\build-cache\480d0ec4d6b36fd25dcbbd7ef8b8ef20607c2f33\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:14:42-68
+	android:allowBackup
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:13:18-44
+	android:icon
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:13:45-79
+	android:theme
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:14:69-100
+activity#com.hci.bachelorproject.tactileCalendar.GoogleCalendarActivity
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:15:9-21:20
+	android:configChanges
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:15:97-158
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:15:19-96
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] C:\Users\Julius\.android\build-cache\693fff58ea7bf5a1166e99ca40330bba9953f458\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Julius\.android\build-cache\5d0e107388db0e56dcd906d3a015a2c1ba96572f\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Julius\.android\build-cache\24e0e2fd8345ba9735f4ecf484ce328e52c40bdb\output\AndroidManifest.xml:17:5-42
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Julius\.android\build-cache\e3ce72fbc2bb1da2fde400794e0e7500e0a3783a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [TactileCalendar:webapplib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\webapplib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [TactileCalendar:bluetoothlib:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\bluetoothlib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [TactileCalendar:svgparser:unspecified] Z:\Daten\Bachelorprojekt1617\TactileCalendar\android-framework\svgparser\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Julius\.android\build-cache\036fc017015a71a9b3d7a9b836fdc8b5c976303c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Julius\.android\build-cache\90f1862068d93f344c1bd2df6bf2908dd054b21f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Julius\.android\build-cache\b0221244a42c6e11e6187cb8c43305144f571ad2\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Julius\.android\build-cache\b291443db106afe0fd0960b03fde53f003d783c6\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Julius\.android\build-cache\01c1f2d4ef975f9cfb7668f291f51a0850ac55ea\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Julius\.android\build-cache\166dd5950d5d4c82d2c567618f14ca9a25068b80\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Julius\.android\build-cache\ab7974efcce14faf7acd2186e85211c119b5c1dc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Julius\.android\build-cache\82b345279275cb9b636270f9e82170fe1ca9b27d\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Julius\.android\build-cache\480d0ec4d6b36fd25dcbbd7ef8b8ef20607c2f33\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Julius\.android\build-cache\036fc017015a71a9b3d7a9b836fdc8b5c976303c\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+		INJECTED from Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Julius\.android\build-cache\691906a16d8595e0d9c3cb8f428f38084fdf0b4f\output\AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Julius\.android\build-cache\829ca3d7ee61982b3a185c6e3a7d24a88dde4aaf\output\AndroidManifest.xml:19:19-85

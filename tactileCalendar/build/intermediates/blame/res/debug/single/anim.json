@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "Z:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Julius\\.android\\build-cache\\036fc017015a71a9b3d7a9b836fdc8b5c976303c\\output\\res\\anim\\abc_slide_out_top.xml"
+    }
+]

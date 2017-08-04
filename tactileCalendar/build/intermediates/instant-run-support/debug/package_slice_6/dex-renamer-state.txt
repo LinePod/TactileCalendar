@@ -1,0 +1,4 @@
+#Mon Jul 03 17:52:28 CEST 2017
+base.0=Z\:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+renamed.0=classes.dex
+file.0=Z\:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

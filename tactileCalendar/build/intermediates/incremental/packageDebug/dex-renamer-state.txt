@@ -1,0 +1,7 @@
+#Mon Jul 03 18:20:39 CEST 2017
+base.0=Z\:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d66e5906ed4316a3f3e167177b02b83453aaa4db
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=Z\:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8edc9735ac7d8db9fe14435fc84ced4ec6acd6e0\\classes.dex
+base.1=Z\:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8edc9735ac7d8db9fe14435fc84ced4ec6acd6e0
+file.0=Z\:\\Daten\\Bachelorprojekt1617\\TactileCalendar\\tactileCalendar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d66e5906ed4316a3f3e167177b02b83453aaa4db\\classes.dex
