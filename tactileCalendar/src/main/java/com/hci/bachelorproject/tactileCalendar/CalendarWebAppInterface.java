@@ -193,7 +193,7 @@ public class CalendarWebAppInterface extends JSAppInterface {
 
         newEvents = new ArrayList<>();
         newEvents.add(event);
-        System.out.printf("Event created: %s\n", event.getHtmlLink());
+        Log.d("Event created: %s\n", event.getHtmlLink());
         webView.post((new Runnable() {
             @Override
             public void run() {
