@@ -3,8 +3,13 @@ Convert your Google Calendar into a visualization for the blind to be printed on
 
 <img src="braillecalender.png" align="left" width="1000" >
 
-You need d3 to run this project, get the newest version here: https://d3js.org/d3.v4.min.js
-
 How to run
-- execute: ```python -m SimpleHTTPServer 8000``` in project directory
-- open localhost:8000/calendar.html in your browser
+- Install Android-Studio on your Computer.
+
+- Clone this repository **RECURSIVELY**:
+
+_git clone git@github.com:LinePod/TactileCalendar.git --recursive_
+
+- Connect your mobile phone to your computer, activate developer options (http://www.greenbot.com/article/2457986/android/how-to-enable-developer-options-on-your-android-phone-or-tablet.html)
+
+- Run the apps from Android Studio on your phone, it should start instantly.
