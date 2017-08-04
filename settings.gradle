@@ -1,0 +1,7 @@
+include ':svgparser'
+include ':bluetoothlib'
+include ':webapplib'
+include ':tactileCalendar'
+project(':svgparser').projectDir = new File('android-framework/svgparser')
+project(':bluetoothlib').projectDir = new File('android-framework/bluetoothlib')
+project(':webapplib').projectDir = new File('android-framework/webapplib')

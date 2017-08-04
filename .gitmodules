@@ -1,0 +1,3 @@
+[submodule "android-framework"]
+	path = android-framework
+	url = git@github.com:Felerius/linespace-android.git

@@ -174,7 +174,9 @@ function handleSpeech(speechInput){
     } else if (speechInput.includes("select")){
         var time = getCursorTime();
         fsm.handle("selectingTime", time);
-    } else if (speechInput.includes("create")){
+    }
+
+    else if (speechInput.includes("create")){
         fsm.handle("createEvent");
     } else if (speechInput.includes("options") || speechInput.includes("help") ){
         fsm.handle("options");
