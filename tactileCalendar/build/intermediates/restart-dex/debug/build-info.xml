@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1499098828831"
+    timestamp="1502271897708"
     token="-3737814750695432490"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1499098828831"
+        timestamp="1502271897708"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="Z:\Daten\Bachelorprojekt1617\TactileCalendar\tactileCalendar\build\outputs\apk\tactileCalendar-debug.apk"

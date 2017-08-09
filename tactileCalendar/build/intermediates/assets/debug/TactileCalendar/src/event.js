@@ -13,7 +13,7 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
-weekDays = ["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+weekDays = ["sunday", "monday","tuesday","wednesday","thursday","friday","saturday"]
 
 
 function formatAMPM(date) {
@@ -23,7 +23,7 @@ function formatAMPM(date) {
   hours = hours % 12;
   hours = hours ? hours : 12; // the hour '0' should be '12'
   minutes = minutes < 10 ? '0'+minutes : minutes;
-  var strTime = weekDays[(date.getDay()+6)%7] + " " + hours + ':' + minutes + ' ' + ampm;
+  var strTime = weekDays[(date.getDay())%7] + " " + hours + ':' + minutes + ' ' + ampm;
   return strTime;
 }
 

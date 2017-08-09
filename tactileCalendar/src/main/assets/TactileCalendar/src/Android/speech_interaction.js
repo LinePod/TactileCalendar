@@ -21,8 +21,7 @@ var fsm = new machina.Fsm({
        this.transition("printing");
      },
      options: function(){
-       //this.emit('speech', "Do you want to print your calendar now then say 'print'. Just don't forget to check that your Linepod is turned on, has paper inserted and that it's lid is closed.");
-       this.emit('speech', "This app assumes that you already printed your calendar of the current week. If you want to interact with it now check that your Linepod has paper inserted, then shake your phone to open the speech recognition and then say 'start'.");
+       this.emit('speech', "Your available speech commands are 'start' and 'print'. Say 'start' if you already have a printed calendar of the current week and 'print' to print a new calendar.");
 
      },
      otherInput: function(input) {
@@ -70,7 +69,7 @@ var fsm = new machina.Fsm({
       },
       otherInput: function(eventName) {
        eventNm = eventName;
-       this.emit('speech', 'Alright, I received ' + eventName + ' as event name. Please select the start time by hovering over the desired time-slot on the paper and saying select');
+       this.emit('speech', 'Alright, I received ' + eventName + ' as event name. Please tell me the start time of your event');
         this.transition('selectingStartTime');
       },
      options: function(){
@@ -82,7 +81,7 @@ var fsm = new machina.Fsm({
       selectingTime: function (startTime){
           eventStartTime = startTime;
           eventStartTimeFormatted = formatAMPM(startTime);
-          this.emit('speech', 'Ok, the start time of the event is ' + eventStartTimeFormatted + '. When should the event end? Please hover over the end time and say select');
+          this.emit('speech', 'Ok, the start time of the event is ' + eventStartTimeFormatted + '. Please tell me when your event should end.');
           this.transition('selectingEndTime');
        },
        cancel: function() {
@@ -95,7 +94,7 @@ var fsm = new machina.Fsm({
        },
        options: function(){
          this.emit("speech", "You are currently in the event-creation-wizard of your event " + eventNm
-          + ". If you want to change the event name just say 'back', otherwise say select while you hover over the desired start time of your event on the paper."
+          + ". If you want to change the event name just say 'back', otherwise please tell me the start time of your event."
           + " Of course you can also cancel the event-creation by saying cancel.")
        },
        otherInput: function(input) {
@@ -108,7 +107,7 @@ var fsm = new machina.Fsm({
       selectingTime: function (endTime){
           eventEndTime = endTime;
           eventEndTimeFormatted = formatAMPM(endTime);
-          this.emit('speech', 'Your event ends ' + eventEndTimeFormatted + '. Say "create" if you want to create the event ' + eventNm + ', starting on ' + eventStartTimeFormatted + ' and ending on ' + eventEndTimeFormatted + ', now.');
+          this.emit('speech', 'Your event ends ' + eventEndTimeFormatted + '. Say "finish" if you want to create the event ' + eventNm + ', starting on ' + eventStartTimeFormatted + ' and ending on ' + eventEndTimeFormatted + ', now.');
           this.transition('creatingEvent');
         },
       cancel: function() {
@@ -116,12 +115,12 @@ var fsm = new machina.Fsm({
          this.transition('idle');
       },
       back: function() {
-          this.emit('speech', 'Going back. Please select a new start time by hovering over the desired time-slot on the paper and saying select');
+          this.emit('speech', 'Going back. Please tell me the new start time.');
           this.transition('selectingStartTime');
       },
       options: function(){
         this.emit("speech", "You are currently in the event-creation-wizard of your event " + eventNm + " which starts at " + eventStartTimeFormatted
-         + ". If you are not happy with the start time of the event you can select a new time after saying back. If you want to specify the end-time of your event say 'select' while you hover over the desired end time on the paper."
+         + ". If you are not happy with the start time of the event you can tell me a new time after saying back. Otherwise please tell me the end-time of your event now."
          + " As always you can also cancel the event-creation by saying cancel.") //maybe better: If I received a wrong start time of your event just say back
       },
       otherInput: function(input) {
@@ -139,11 +138,11 @@ var fsm = new machina.Fsm({
 
         },
         back: function() {
-            this.emit('speech', 'Going back. Please select a new end time by hovering over the desired time-slot on the paper and saying select');
+            this.emit('speech', 'Going back. Please tell me the new end time of your event.');
             this.transition('selectingEndTime');
         },
         options: function(){
-          this.emit("speech", "You are currently in the event-creation-wizard of your event " + eventNm + " which starts at " + eventStartTimeFormatted + " and ends at " + eventEndTimeFormatted + ". If you are not happy with the end time of the event you can select a new time after saying back. Otherwise, if you want to create the event now just say 'create'. As always you can also cancel the event-creation by saying cancel.");
+          this.emit("speech", "You are currently in the event-creation-wizard of your event " + eventNm + " which starts at " + eventStartTimeFormatted + " and ends at " + eventEndTimeFormatted + ". If you are not happy with the end time of the event you can select a new time after saying back. Otherwise, if you want to create the event now just say 'finish'. As always you can also cancel the event-creation by saying cancel.");
         },
         otherInput: function(input) {
              notUnderstood();

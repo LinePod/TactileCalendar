@@ -66,8 +66,7 @@ public class CalendarWebAppInterface extends JSAppInterface {
                                 "      + \"If you want you can now print your current Google Calendar by saying 'print'. Double check that your Linepod is turned on, a piece of swell paper is inserted " +
                                 "      \"and that the lid is closed if you want to print. Otherwise, if you already havwe a printed calendar you can Also you can say 'options' or 'help' at anytime if you're stuck and don't know what to do. "
                         , TextToSpeech.QUEUE_ADD,null);*/
-                tts.speak("Welcome to your tactile calendar. This app supports speech recognition that you can start by shaking your phone. It assumes that you already have a printed tactile calendar of the current week." +
-                        " If you want to interact with your calendar now, insert your calendar in the Linepod, pull it in by pressing the second button in the upper-right corner on the Linepod and then say 'start' after opening the speech-recognition. Also you can say 'options' or 'help' at anytime if you're stuck and don't know what to do. "
+                tts.speak("Welcome to your tactile calendar. Your available speech commands are 'start' and 'print'. Say 'start' if you already have a printed calendar of the current week and 'print' to print a new calendar. You can trigger the speech recognition by shaking your phone. If you need help you can also say 'options' at anytime. "
                 , TextToSpeech.QUEUE_ADD,null,"");
 
             }

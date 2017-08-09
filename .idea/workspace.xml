@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0163f31b-7ff5-4493-b7ac-f33e75098b18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-framework" afterPath="$PROJECT_DIR$/android-framework" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/PrinterConnector.java" afterPath="$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/PrinterConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_tactileCalendar_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_tactileCalendar_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_tactileCalendar_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_tactileCalendar_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/classes/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental-verifier/debug/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/outputs/apk/tactileCalendar-debug.apk" afterPath="$PROJECT_DIR$/tactileCalendar/build/outputs/apk/tactileCalendar-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/googleCalendar.js" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/googleCalendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/inputData.js" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/inputData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/speech.js" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/speech.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/speech_interaction.js" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/Android/speech_interaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/event.js" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/assets/debug/TactileCalendar/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/tactileCalendar/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/googleCalendar.js" afterPath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/googleCalendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/inputData.js" afterPath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/inputData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js" afterPath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech_interaction.js" afterPath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech_interaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/event.js" afterPath="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/event.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java" afterPath="$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java" />
     </list>
     <ignored path="TactileCalendar.iws" />
@@ -41,26 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalendarWebAppInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java">
+      <file leaf-file-name="speech_interaction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech_interaction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="64" column="126" selection-start-line="64" selection-start-column="122" selection-end-line="64" selection-end-column="126" />
-              <folding>
-                <element signature="e#4320#4321#0" expanded="false" />
-                <element signature="e#4401#4402#0" expanded="false" />
-                <element signature="e#4540#4541#0" expanded="false" />
-                <element signature="e#4631#4632#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleCalendarActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/GoogleCalendarActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="443" column="7" selection-start-line="443" selection-start-column="7" selection-end-line="443" selection-end-column="7" />
+            <state relative-caret-position="128">
+              <caret line="144" column="328" selection-start-line="144" selection-start-column="322" selection-end-line="144" selection-end-column="328" />
               <folding />
             </state>
           </provider>
@@ -76,63 +109,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speech.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="speech.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3043">
-              <caret line="179" column="34" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="34" />
+            <state relative-caret-position="128">
+              <caret line="223" column="43" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrinterConnector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/PrinterConnector.java">
+      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/event.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#734#735#0" expanded="false" />
-                <element signature="e#767#768#0" expanded="false" />
-                <element signature="e#830#831#0" expanded="false" />
-                <element signature="e#874#875#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SVGTransmitter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/SVGTransmitter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="140" column="78" selection-start-line="140" selection-start-column="78" selection-end-line="140" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#656#657#0" expanded="false" />
-                <element signature="e#695#696#0" expanded="false" />
-                <element signature="e#908#909#0" expanded="false" />
-                <element signature="e#938#939#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-framework/svgparser/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="128">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-framework/bluetoothlib/build.gradle">
+      <file leaf-file-name="googleCalendar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/googleCalendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="17">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -141,8 +142,38 @@
       <file leaf-file-name="render.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/render.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svgprinting.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/svgprinting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1639">
+              <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inputData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/inputData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -3935,7 +3966,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="Z:\Daten\Bachelorprojekt1617\TactileCalendar" value="8991427556798" />
+        <entry key="Z:\Daten\Bachelorprojekt1617\TactileCalendar" value="9002856753311" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -4582,18 +4613,22 @@
         <option value="$PROJECT_DIR$/android-framework/bluetoothlib/build.gradle" />
         <option value="$PROJECT_DIR$/android-framework/svgparser/build.gradle" />
         <option value="$PROJECT_DIR$/tactileCalendar/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java" />
         <option value="$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/PrinterConnector.java" />
-        <option value="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js" />
         <option value="$PROJECT_DIR$/../TactileMinesweeper/tactileMinesweeper/src/main/assets/TactileMinesweeper/renders/minesweeper_initial.svg" />
+        <option value="$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java" />
+        <option value="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/event.js" />
+        <option value="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/inputData.js" />
+        <option value="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/googleCalendar.js" />
+        <option value="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech_interaction.js" />
+        <option value="$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -4620,8 +4655,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -4641,9 +4675,104 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tactileCalendar" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4976,7 +5105,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -4984,15 +5113,15 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16211604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39590445" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15458423" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21860817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -5083,12 +5212,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="e#4320#4321#0" expanded="false" />
-            <element signature="e#4401#4402#0" expanded="false" />
-            <element signature="e#4540#4541#0" expanded="false" />
-            <element signature="e#4631#4632#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5234,38 +5358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/inputData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/googleCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/style.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -5323,14 +5419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/render.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/BluetoothConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -5338,31 +5426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/svgprinting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-framework/bluetoothlib/src/main/java/de/hpi/hci/bachelorproject2016/bluetoothlib/PrinterConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-            <element signature="e#830#831#0" expanded="false" />
-            <element signature="e#874#875#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5387,18 +5454,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js">
+    <entry file="file://$PROJECT_DIR$/../TactileMinesweeper/tactileMinesweeper/src/main/assets/TactileMinesweeper/renders/minesweeper_initial.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="179" column="34" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/GoogleCalendarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="456" column="29" selection-start-line="456" selection-start-column="29" selection-end-line="456" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech_interaction.js">
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5410,31 +5485,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java">
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="64" column="126" selection-start-line="64" selection-start-column="122" selection-end-line="64" selection-end-column="126" />
-          <folding>
-            <element signature="e#4320#4321#0" expanded="false" />
-            <element signature="e#4401#4402#0" expanded="false" />
-            <element signature="e#4540#4541#0" expanded="false" />
-            <element signature="e#4631#4632#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TactileMinesweeper/tactileMinesweeper/src/main/assets/TactileMinesweeper/renders/minesweeper_initial.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/GoogleCalendarActivity.java">
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/svgprinting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="443" column="7" selection-start-line="443" selection-start-column="7" selection-end-line="443" selection-end-column="7" />
+        <state relative-caret-position="1639">
+          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/inputData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/java/com/hci/bachelorproject/tactileCalendar/CalendarWebAppInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/googleCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech_interaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="144" column="328" selection-start-line="144" selection-start-column="322" selection-end-line="144" selection-end-column="328" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tactileCalendar/src/main/assets/TactileCalendar/src/Android/speech.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="223" column="43" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
           <folding />
         </state>
       </provider>

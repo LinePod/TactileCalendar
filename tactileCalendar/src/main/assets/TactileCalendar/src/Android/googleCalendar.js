@@ -6,7 +6,9 @@ function getEventsFromAndroid(){
   console.log("requesting events from google api");
   var request = JSON.parse(Android.getGoogleCalendarEvents());
   console.log(request["events"].length)
-  parseJSONrequest(request);
+  var parsedEvents = parseJSONrequest(request);
+  initCalendar(parsedEvents);
+  renderEvents(parsedEvents);
 }
 
 function parseJSONrequest(request){
@@ -24,14 +26,16 @@ function parseJSONrequest(request){
         console.log("-------------");
         newEvents.push(event);
       }
-      initCalendar(newEvents);
-      renderEvents(newEvents);
+      return newEvents;
 }
 
 function getNewEventsFromAndroid(){
 
     var request = JSON.parse(Android.getNewEvents());
-    parseJSONrequest(request);
+    var parsedEvents = parseJSONrequest(request);
+    renderEvents(parsedEvents);
+
 }
+
 
 getEventsFromAndroid();
